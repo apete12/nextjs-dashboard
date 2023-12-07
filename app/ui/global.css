@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* These are directives used in a Tailwind CSS setup. They include the base styles, components, and utilities provided by Tailwind. It's a way to include Tailwind's pre-defined styles in your project. */
+
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
 }
+/* This block of styles is targeting <input> elements with the attribute type set to 'number'. It's a CSS rule that specifies styles for number input fields. */
 
 input[type='number']::-webkit-inner-spin-button {
   -webkit-appearance: none;
